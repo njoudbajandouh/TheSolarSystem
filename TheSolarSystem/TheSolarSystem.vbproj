@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{7A15E2EA-D3D8-487D-B18D-6868B3278ABB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TheSolarSystem</RootNamespace>
+    <AssemblyName>TheSolarSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44317</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>TheSolarSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>TheSolarSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ALL_ABOUT_THE_SOLAR_SYSTEM.aspx" />
+    <Content Include="App_Themes\Theme1\css\style.css" />
+    <Content Include="App_Themes\Theme1\__MACOSX\._profile.jpg" />
+    <Content Include="App_Themes\Theme1\__MACOSX\._readme and license.txt" />
+    <Content Include="App_Themes\Theme1\__MACOSX\._screenshot.jpg" />
+    <Content Include="default.aspx" />
+    <Content Include="EARTH.aspx" />
+    <Content Include="FOR_FUN.aspx" />
+    <Content Include="index.html" />
+    <Content Include="JUPITER.aspx" />
+    <Content Include="MARS.aspx" />
+    <Content Include="MEETUS.aspx" />
+    <Content Include="MERCURY.aspx" />
+    <Content Include="NEPTUNE.aspx" />
+    <Content Include="PICS\3d-glasses.png" />
+    <Content Include="PICS\4805493 %281%29.jpg" />
+    <Content Include="PICS\647793.png" />
+    <Content Include="PICS\alien.png" />
+    <Content Include="PICS\backbutton.png" />
+    <Content Include="PICS\colorful-poster-of-the-planet-uranus-in-the-space-vector-15849701.png" />
+    <Content Include="PICS\colorful-poster-of-the-planet-venus-in-the-space-vector-15849676.jpg" />
+    <Content Include="PICS\FAMILY.png" />
+    <Content Include="PICS\g1.png" />
+    <Content Include="PICS\g2.png" />
+    <Content Include="PICS\g3.png" />
+    <Content Include="PICS\g4.png" />
+    <Content Include="PICS\jupiter.png" />
+    <Content Include="PICS\mars.png" />
+    <Content Include="PICS\mercury-planet-of-milky-way-.jpg" />
+    <Content Include="PICS\mercury.png" />
+    <Content Include="PICS\neptune-planet-in-space-with-stars-shiny-cartoon-vector-16631439.png" />
+    <Content Include="PICS\neptune.png" />
+    <Content Include="PICS\planet-earth.png" />
+    <Content Include="PICS\pluto %281%29.png" />
+    <Content Include="PICS\pluto %282%29.png" />
+    <Content Include="PICS\saturn.png" />
+    <Content Include="PICS\solar-system-vector-4939069.jpg" />
+    <Content Include="PICS\solarsystem.gif" />
+    <Content Include="PICS\spaceship.png" />
+    <Content Include="PICS\star-sun-background-night-sky-cartoon-style-vector-17863923.png" />
+    <Content Include="PICS\STATION.gif" />
+    <Content Include="PICS\SUN ICON.jpg" />
+    <Content Include="PICS\sun-icon-png-27.jpg" />
+    <Content Include="PICS\sun.png" />
+    <Content Include="PICS\The Amazing World Of Gumball _ Pluto_s Planet _ Si%28360P%29.mp4" />
+    <Content Include="PICS\the-planet-earth-vector-11088906.jpg" />
+    <Content Include="PICS\the-planet-jupiter-vector-11088916.jpg" />
+    <Content Include="PICS\the-planet-mars-vector-11088911.jpg" />
+    <Content Include="PICS\the-planet-saturn-vector-11088920.jpg" />
+    <Content Include="PICS\ufo.png" />
+    <Content Include="PICS\UFOH.png" />
+    <Content Include="PICS\uranus.png" />
+    <Content Include="PICS\venus.png" />
+    <Content Include="PICS\whats.png" />
+    <Content Include="PLUTO.aspx" />
+    <Content Include="readme and license.txt" />
+    <Content Include="SATURN.aspx" />
+    <Content Include="SUN.aspx" />
+    <Content Include="TheBeginning.aspx" />
+    <Content Include="THE_FAMILY.aspx" />
+    <Content Include="URANUS.aspx" />
+    <Content Include="VENUSE.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WHAT%27S_THE_SOLAR_SYSTEM.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ALL_ABOUT_THE_SOLAR_SYSTEM.aspx.designer.vb">
+      <DependentUpon>ALL_ABOUT_THE_SOLAR_SYSTEM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ALL_ABOUT_THE_SOLAR_SYSTEM.aspx.vb">
+      <DependentUpon>ALL_ABOUT_THE_SOLAR_SYSTEM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EARTH.aspx.designer.vb">
+      <DependentUpon>EARTH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EARTH.aspx.vb">
+      <DependentUpon>EARTH.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FOR_FUN.aspx.designer.vb">
+      <DependentUpon>FOR_FUN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FOR_FUN.aspx.vb">
+      <DependentUpon>FOR_FUN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="JUPITER.aspx.designer.vb">
+      <DependentUpon>JUPITER.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JUPITER.aspx.vb">
+      <DependentUpon>JUPITER.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MARS.aspx.designer.vb">
+      <DependentUpon>MARS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MARS.aspx.vb">
+      <DependentUpon>MARS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MEETUS.aspx.designer.vb">
+      <DependentUpon>MEETUS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MEETUS.aspx.vb">
+      <DependentUpon>MEETUS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MERCURY.aspx.designer.vb">
+      <DependentUpon>MERCURY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MERCURY.aspx.vb">
+      <DependentUpon>MERCURY.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NEPTUNE.aspx.designer.vb">
+      <DependentUpon>NEPTUNE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NEPTUNE.aspx.vb">
+      <DependentUpon>NEPTUNE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PLUTO.aspx.designer.vb">
+      <DependentUpon>PLUTO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PLUTO.aspx.vb">
+      <DependentUpon>PLUTO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SATURN.aspx.designer.vb">
+      <DependentUpon>SATURN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SATURN.aspx.vb">
+      <DependentUpon>SATURN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SUN.aspx.designer.vb">
+      <DependentUpon>SUN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SUN.aspx.vb">
+      <DependentUpon>SUN.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TheBeginning.aspx.designer.vb">
+      <DependentUpon>TheBeginning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheBeginning.aspx.vb">
+      <DependentUpon>TheBeginning.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="THE_FAMILY.aspx.designer.vb">
+      <DependentUpon>THE_FAMILY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THE_FAMILY.aspx.vb">
+      <DependentUpon>THE_FAMILY.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="URANUS.aspx.designer.vb">
+      <DependentUpon>URANUS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="URANUS.aspx.vb">
+      <DependentUpon>URANUS.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="VENUSE.aspx.designer.vb">
+      <DependentUpon>VENUSE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VENUSE.aspx.vb">
+      <DependentUpon>VENUSE.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WHAT%27S_THE_SOLAR_SYSTEM.aspx.designer.vb">
+      <DependentUpon>WHAT%27S_THE_SOLAR_SYSTEM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WHAT%27S_THE_SOLAR_SYSTEM.aspx.vb">
+      <DependentUpon>WHAT%27S_THE_SOLAR_SYSTEM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Theme1\css\.DS_Store" />
+    <Content Include="App_Themes\Theme1\scss\.DS_Store" />
+    <Content Include="App_Themes\Theme1\scss\style.scss" />
+    <Content Include="App_Themes\Theme1\scss\_core.scss" />
+    <Content Include="App_Themes\Theme1\scss\_normalize.scss" />
+    <Content Include="App_Themes\Theme1\scss\_variables.scss" />
+    <Content Include="App_Themes\Theme1\__MACOSX\css\._.DS_Store" />
+    <Content Include="App_Themes\Theme1\__MACOSX\scss\._.DS_Store" />
+    <Content Include="App_Themes\Theme1\__MACOSX\scss\._style.scss" />
+    <Content Include="App_Themes\Theme1\__MACOSX\scss\.__core.scss" />
+    <Content Include="App_Themes\Theme1\__MACOSX\scss\.__normalize.scss" />
+    <Content Include="App_Themes\Theme1\__MACOSX\scss\.__variables.scss" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57079</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44317/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

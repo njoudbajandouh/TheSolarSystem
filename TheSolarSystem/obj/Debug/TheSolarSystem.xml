@@ -1,0 +1,347 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TheSolarSystem
+</name>
+</assembly>
+<members>
+<member name="T:TheSolarSystem.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:TheSolarSystem.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:TheSolarSystem.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:TheSolarSystem.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:TheSolarSystem.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:TheSolarSystem.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu2">
+<summary>
+Menu2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu4">
+<summary>
+Menu4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu5">
+<summary>
+Menu5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu6">
+<summary>
+Menu6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu7">
+<summary>
+Menu7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu8">
+<summary>
+Menu8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu9">
+<summary>
+Menu9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu10">
+<summary>
+Menu10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu11">
+<summary>
+Menu11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu12">
+<summary>
+Menu12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.ALL_ABOUT_THE_SOLAR_SYSTEM._Menu13">
+<summary>
+Menu13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem._default._Menu2">
+<summary>
+Menu2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.EARTH._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.FOR_FUN._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.JUPITER._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.MARS._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.MEETUS._Menu2">
+<summary>
+Menu2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.MERCURY._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.NEPTUNE._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.PLUTO._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.SATURN._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.Site1._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.Site1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.Site1._Menu1">
+<summary>
+Menu1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.Site1._Menu2">
+<summary>
+Menu2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.Site1._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.Site1._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.SUN._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.TheBeginning._Menu2">
+<summary>
+Menu2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.THE_FAMILY._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.URANUS._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.VENUSE._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TheSolarSystem.WHAT_S_THE_SOLAR_SYSTEM._Menu3">
+<summary>
+Menu3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

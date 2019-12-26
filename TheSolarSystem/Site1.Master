@@ -1,0 +1,139 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="TheSolarSystem.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+      
+        <title>THE SOLAR SYSTEM</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <!-- Main CSS --> 
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <style type="text/css">
+            .logo {
+                
+                opacity: 0.9;
+                width: 689px;
+                height: 217px;
+                margin: auto;
+                visibility: visible;
+                margin-bottom:auto;
+                float: left;
+                margin-top: 30px;
+                
+            }
+            .auto-style11 {
+                text-align: right;
+            }
+           
+            .container {
+                margin: auto;
+                width: 100%;
+                padding-left: 6rem;
+                padding-left: 0rem;
+                padding-top: 1rem;
+                color: #bbe4d0;
+            }
+            .wrapper {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.66);
+    opacity: 0.9;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    visibility: visible ;
+    top: auto;
+    margin: auto;
+    color: #bbe4d0;
+}
+           
+            .auto-style15 {
+                text-align: center;
+                color: #FF6E8B;
+                font-family: "Gill Sans Nova";
+            }
+         
+            .auto-style17 {
+                width: 100%;
+            }
+            .auto-style18 {
+                width: 343px;
+            }
+         
+            .auto-style19 {
+                color: #66CCFF;
+            }
+         
+        </style>
+
+
+</head>
+<body>
+
+    <form id="form1" runat="server" >
+      <div class="wrapper" aria-atomic="False" style="color:#b8b8f3">
+            <div class="container" style="color:#b8b8f3">
+                <!-- Header -->
+               <header>
+                    <h1 class="auto-style15" > THE SOLAR SYSTEM</h1>
+                    <table class="auto-style17">
+                        <tr>
+                            <td class="auto-style18">
+                                <asp:Menu ID="Menu1" runat="server" Font-Bold="True" Font-Names="Gill Sans Nova" Font-Underline="False">
+                                    <Items>
+                                        <asp:MenuItem ImageUrl="~/PICS/ufo.png" NavigateUrl="~/TheBeginning.aspx" Text="HOME" Value="HOME"></asp:MenuItem>
+                                    </Items>
+                                </asp:Menu>
+                            </td>
+                            <td class="auto-style18">
+                                <asp:Menu ID="Menu2" runat="server" Font-Bold="True" Font-Names="Gill Sans Nova" Font-Underline="False">
+                                    <Items>
+                                        <asp:MenuItem ImageUrl="~/PICS/alien.png" Text="MEET US" Value="MEET US" NavigateUrl="~/MEETUS.aspx"></asp:MenuItem>
+                                    </Items>
+                                </asp:Menu>
+                            </td>
+                            <td>
+                                <asp:Menu ID="Menu3" runat="server" Font-Bold="True" Font-Names="Gill Sans Nova" Font-Underline="False">
+                                    <Items>
+                                        <asp:MenuItem ImageUrl="~/PICS/3d-glasses.png" Text="CLICK HERE !" Value="MEET US" ></asp:MenuItem>
+                                    </Items>
+                                </asp:Menu>
+                            </td>
+                        </tr>
+                    </table>
+               
+                </header>
+
+
+                <!-- Main content area -->
+                    
+                     <h1></h1>
+                <h2></h2>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+          <!-- Footer -->
+                <footer>
+ <p class="auto-style11">
+                        &nbsp;</p>
+                         <p class="auto-style19">&nbsp;</p>
+                    </footer>
+            </div>
+        </div>
+                    </form>
+</body>
+</html>
